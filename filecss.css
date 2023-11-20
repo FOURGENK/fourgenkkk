@@ -1,0 +1,267 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ 
+	font-family: 'Tilt Neon', sans-serif;
+	background-color: #253135;
+	width: 100vw;
+	overflow-x: hidden;
+	max-width: 1349px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+div{ box-sizing: border-box; }
+
+
+.navbar{
+	width: 1365px;
+	background-color: #0c1b1f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 100px;
+	font-family: sans-serif;
+}
+
+.nav-menu{
+	width: 100%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu li a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: white;text-decoration: underline;
+	transition: 0.3s;
+}
+.ukuranlogonavbar{
+	width: 148px;
+	height: 130px;
+}
+
+
+
+
+.slide{
+	margin-left: 25px;
+	width: 3px;
+	height: 630px;
+}
+
+.rectangle{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 1369px;
+	height: 30px;
+}
+
+
+
+
+
+.opening{
+	display: flex;
+}
+.gambarbackgroundopening{
+	width: 1148px;
+	height: 630px;
+}
+.gambar-opening{
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.teks-opening{
+	position: relative;
+	text-align: right;
+}
+.teks-opening p{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	right: 10%;
+	transform: translate(0%, 0%);
+	color: white;
+	display: flex;
+	font-size: 100px;
+}
+
+
+.teks-menu{
+	position: relative;
+}
+.teks-menu p{
+	position: absolute;
+	top: 5%;
+	left: 550px;
+	color: white;
+	display: flex;
+	font-size: 60px;
+}
+.gambarmenu{
+	margin-top: 15px;
+	margin-left: 16px;
+	position: relative;
+	width: 1298px;
+	height: 630px;
+}
+.container {
+    position: relative;
+}
+.gambar-2, .gambar-3, .gambar-4 {
+	justify-content: space-between;
+    position: absolute;
+    margin-left: 60px;
+    top: 50%;
+    width: 400px;
+    height: 300px; 
+    padding-top: 300px;
+}
+.gambar-2 {
+    left: 5%;
+    transform: translate(-20%, -115%);
+}
+.gambar-3 {
+    left: 52%;
+    transform: translate(-60%, -115%);
+}
+.gambar-4 {
+    right: 0;
+    transform: translate(10%, -115%);
+}
+
+.menutempo{
+	margin-left: 50px;
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-around;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	padding-bottom: 20px;
+
+}
+.menutempo .menukopi{
+	width: 20%;
+}
+.menutempotext{
+	display: flex;
+	justify-content: space-around;
+}
+.menutempotext h2{
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	width: 25%;
+}
+
+
+.address{
+	position: relative;
+	left: 600px;
+	color: mintcream;
+	top: 15px;
+	margin-bottom: 20px;
+}
+.address h1{
+	font-size: 40px;
+}
+.address1{
+	margin-top: 0px;
+	margin-left: 60px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+
+	
+}
+
+
+.gambarcontact{
+	margin-top: 10px;
+	margin-left: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	width: 1298px;
+	height: 630px;
+}
+.contact{
+	color: mintcream;
+	margin-left: 600px;
+	margin-top: 40px;
+
+}
+.contact h1{
+	color: white;
+	display: flex;
+	font-size: 40px;
+}
+
+.containerkontak{
+    position: relative;
+
+}
+.containerkontak p{
+	font-size: 20px;
+	color: white;
+	transform: translate(10% , -780%);
+	margin-bottom: 45px;
+}
+.gambar2, .gambar3, .gambar4 {
+    justify-content: space-between;
+    position: absolute;
+    top: 50%; 
+}
+.gambar2 {
+	width: 58px; 
+    height: 50px;
+    left: 0%;
+    transform: translate(50%, 55%);
+}
+
+.gambar3 {
+	width: 58px; 
+    height: 50px;
+    left: 0%;
+    transform: translate(50%, 120%);
+}
+
+.videoresult{
+	position: relative;
+	left: 550px;
+	color: mintcream;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.videoresult h1{
+	font-size: 40px;
+}
+
+.videosetting{
+	width: 1248px;
+	height: 630px;
+	transform: translate(5% , 0%);
+}
+
+.footer{
+	width: 1369px;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
